@@ -9,7 +9,7 @@ import java.util.HashMap.*
 fun main() {
     var start = System.currentTimeMillis()
     calculateAndPrint()
-    println("Took ${System.currentTimeMillis()-start} ms")
+    println("Took ${(System.currentTimeMillis()-start)/1000} Seconds")
 }
 
 private fun calculateAndPrint() {
